@@ -32,3 +32,6 @@ app.use(function (err, req, res, next) {
 app.listen(process.env.PORT || 5000, () => {
   console.log(`Server is running on port ${process.env.PORT || 5000}`);
 });
+
+// Import Eureka registration
+require("./eureka");

@@ -110,19 +110,7 @@ const RegisterUser = () => {
                   </Stack>
 
                   <div>
-                    <span className="fs-6 mt-3" style={{ color: "#607d8b" }}>
-                      Birthdate
-                    </span>
-                    <br />
-                    <InputText
-                      style={{ width: "100%" }}
-                      type="date"
-                      name="birthDate"
-                      placeholder=""
-                      className="w-full my-2"
-                      variant="outlined"
-                    />
-
+                    
                     <div id="my-radio-group">Gender :</div>
                     <div role="group" aria-labelledby="my-radio-group">
                       <label>
